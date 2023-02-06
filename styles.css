@@ -1,0 +1,104 @@
+/*********
+Színek: kek: #183483; zold: #18a248; sarga: #e9dc13;
+***********/
+@font-face{
+    font-family: Poppins-Regular;
+    src: url(../fonts/Popping-Regular.ttf);
+}
+@font-face{
+    font-family: Poppins-Bold;
+    src: url(../fonts/Popping-Bold.ttf);
+}
+:root{
+    --kek: #183483;
+    --sarga: #e9dc13;
+    --zold: #18a248;
+}
+body{
+    font-family: 'Poppins-Regular', Arial;
+    background-color: var(--zold);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins-Bold', Arial;
+    color: var(--zold);
+    font-weight: bold;
+}
+h1, h2 {
+    text-align: center;
+}
+.container, footer, header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-left: 2px solid var(--kek);
+    border-right: 2px solid var(--kek);
+    background-color: var(--sarga);
+}
+header {
+    border-bottom: 2px dashed rgb(0, 0, 0);
+}
+
+p {
+    line-height: 150%;
+    text-indent: 30px;
+    text-align: justify;
+}
+
+section{
+    margin: 10px;
+}
+
+table {
+    width: 100%;
+    color: var(--zold);
+}
+
+tr:nth-child(odd) {
+    background-color: var(--kek);
+}
+
+th {
+    width: 50%;
+}
+
+td, th {
+    padding: 10px;
+    border: 2px solid var(--kek);
+}
+
+img {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    border: 2px solid var(--kek);
+}
+
+.nav-link {
+    color: var(--sarga);
+}
+
+.nav-link:hover {
+    color: var(--zold);
+}
+
+.bg-menu {
+    background-color: var(--kek);
+    border-radius: 20px;
+}
+
+img.pele {
+    border-radius: 20px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+
+span.datum {
+    font-weight: bold;
+    color: var(--kek);
+}
